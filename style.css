@@ -1,0 +1,29 @@
+h1 {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+img {
+    width: 100px; 
+    padding: 10px ;  
+}
+
+[class*="container"]{
+    align-self: left;
+    align-items: left;
+    display:flex;
+    justify-content: left;
+    background-color: #2f4f4f;
+}
+
+center {
+    margin: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 100px;
+  }
